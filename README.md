@@ -7,21 +7,40 @@ Aplicação web desenvolvida em Python utilizando Flask para gerenciamento de cl
 - Flask
 - SQLAlchemy
 - SQLite
-- HTML
+- HTML/CSS
 - Bootstrap
 
 ## Funcionalidades
 - Cadastro de clientes
 - Listagem de clientes
+- Atualização de dados
 - Busca por nome
+- Exclusão de registros
 - Persistência em banco de dados
+
+##Arquitetura
+
+A aplicação utiliza arquitetura cliente-servidor com persistência em banco SQLite e renderização via templates Jinja2.
+
+##Modificações realizadas por mim
+
+-Alteração do modelo de dados
+
+-Implementação de busca
+
+-Personalização da interface
+
+-Organização estrutural do projeto
 
 ## Como executar
 
 git clone https://github.com/franklinsds/Flask-Cadastro-Clientes-App
 
-cd repositorio
+##Bash
+pip install -r requirements.txt
+python app.py
 
+cd repositorio
 pip install -r requirements.txt
 
 python app.py
