@@ -39,12 +39,12 @@ A aplicação utiliza arquitetura cliente-servidor com persistência em banco SQ
 git clone https://github.com/franklinsds/Flask-Cadastro-Clientes-App
 cd Flask-Cadastro-Clientes-App
 
->>Para rodar localmente
+# Para rodar localmente
 
-python -m venv venv
-source venv/bin/activate
-pip intall -r requeriments.txt
-python app.py
+-python -m venv venv
+-source venv/bin/activate
+-pip intall -r requeriments.txt
+-python app.py
 
 ## Autor
 Franklin Seixas
