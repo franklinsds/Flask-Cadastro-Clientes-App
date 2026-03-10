@@ -18,7 +18,7 @@ Aplicação web desenvolvida em Python utilizando Flask para gerenciamento de cl
 
 ## Como executar
 
-git clone https://github.com/seuusuario/repositorio
+git clone https://github.com/franklinsds/Flask-Cadastro-Clientes-App
 
 cd repositorio
 
