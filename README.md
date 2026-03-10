@@ -1,3 +1,33 @@
+# Sistema de Cadastro de Clientes
+
+Aplicação web desenvolvida em Python utilizando Flask para gerenciamento de clientes com operações CRUD.
+
+## Tecnologias utilizadas
+- Python
+- Flask
+- SQLAlchemy
+- SQLite
+- HTML
+- Bootstrap
+
+## Funcionalidades
+- Cadastro de clientes
+- Listagem de clientes
+- Busca por nome
+- Persistência em banco de dados
+
+## Como executar
+
+git clone https://github.com/seuusuario/repositorio
+
+cd repositorio
+
+pip install -r requirements.txt
+
+python app.py
+
+## Autor
+Franklin Seixas
 # Flask Students Management App
 
 This is a simple Flask web application to manage students' information using a SQLite database and SQLAlchemy for database interactions. The app allows you to:
