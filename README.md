@@ -22,7 +22,7 @@ Aplicação web desenvolvida em Python utilizando Flask para gerenciamento de cl
 
 A aplicação utiliza arquitetura cliente-servidor com persistência em banco SQLite e renderização via templates Jinja2.
 
-##Modificações realizadas por mim
+## Modificações realizadas por mim
 
 -Alteração do modelo de dados
 
@@ -34,15 +34,16 @@ A aplicação utiliza arquitetura cliente-servidor com persistência em banco SQ
 
 ## Como executar
 
+## Bash (Terminal)
+
 git clone https://github.com/franklinsds/Flask-Cadastro-Clientes-App
+cd Flask-Cadastro-Clientes-App
 
-##Bash
-pip install -r requirements.txt
-python app.py
+>>Para rodar localmente
 
-cd repositorio
-pip install -r requirements.txt
-
+python -m venv venv
+source venv/bin/activate
+pip intall -r requeriments.txt
 python app.py
 
 ## Autor
