@@ -36,15 +36,19 @@ A aplicação utiliza arquitetura cliente-servidor com persistência em banco SQ
 
 ## Bash (Terminal)
 
+```bash
 git clone https://github.com/franklinsds/Flask-Cadastro-Clientes-App
 cd Flask-Cadastro-Clientes-App
+````
 
 # Para rodar localmente
 
--python -m venv venv
--source venv/bin/activate
--pip intall -r requeriments.txt
--python app.py
+```bash
+python -m venv venv
+source venv/bin/activate
+pip intall -r requeriments.txt
+python app.py
+````
 
 ## Autor
 Franklin Seixas
@@ -57,11 +61,7 @@ Franklin Seixas
 - Python 3.8 or later
 - pip (Gerenciador de pacote Python)
 
-### Etapas para executar localmente
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Qoslaye/flask-students-Management-app.git
-   cd flask-students-Management-app
+
 
 
    ---
