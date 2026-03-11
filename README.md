@@ -46,7 +46,7 @@ cd Flask-Cadastro-Clientes-App
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install -r requeriments.txt
+pip install -r requirements.txt
 python app.py
 ````
 
